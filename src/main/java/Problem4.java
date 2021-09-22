@@ -10,7 +10,12 @@ public class Problem4 {
         System.out.println("Input the second number");
         double secondnum = input.nextDouble();
         int sum = firstnum + ((int)secondnum);
-        System.out.println(sum);
+        float sumf= firstnum + ((float)secondnum);
+        float sum2 = sum;
+        int sum3 = (int)sumf;
+        
+        System.out.println("The output in float is " + sum2);
+        System.out.println("The output in int is " + sum3);
         
     
     
